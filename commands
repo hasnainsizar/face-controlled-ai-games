@@ -1,0 +1,39 @@
+run program commands:
+
+python3 face_demo.py
+
+python3 face_ttt.py
+
+commands for Github:
+
+cd Face_AI
+git init
+touch .gitignore
+    __pycache__/
+    .env
+    *.pyc
+    .venv/
+    venv/
+    data/
+    models/
+    .ipynb_checkpoints/
+    .DS_Store
+
+git add .
+git commit -m "Initial working version of project"
+
+Create an EMPTY repo on GitHub
+Go to GitHub → New Repository
+Repo name: face-controlled-ai-games
+
+Do NOT initialize with README
+No .gitignore
+No license
+Click Create Repository
+
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/face-controlled-ai-games.git
+
+git remote -v
+
+git push -u origin main
